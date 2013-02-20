@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="groupserver">
+
+  <browser:resource
+    name="jquery.condense-20130107.js"
+    file="browser/javascript/jquery.condense.js"
+    permission="zope2.Public" />
+
+</configure>
