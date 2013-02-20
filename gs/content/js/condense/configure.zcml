@@ -8,4 +8,9 @@
     file="browser/javascript/jquery.condense.js"
     permission="zope2.Public" />
 
+  <browser:resource
+    name="jquery.condense-min-20130107.js"
+    file="browser/javascript/jquery.condense-min.js"
+    permission="zope2.Public" />
+
 </configure>
