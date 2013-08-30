@@ -17,9 +17,10 @@ setup(name='gs.content.js.condense',
         "Intended Audience :: Developers",
         'License :: OSI Approved :: Zope Public License',
         "Natural Language :: English",
-        "Operating System :: POSIX :: Linux"
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Operating System :: OS Independent"
+        "Programming Language :: JavaScript",
+        "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+        "Topic :: Software Development :: Libraries :: JavaScript Modules",
     ],
     keywords='javascript jQuery jQuery.UI Bootstrap',
     author='Michael JasonSmith',
@@ -34,7 +35,8 @@ setup(name='gs.content.js.condense',
         'setuptools',
         'gs.content.js.jquery.base',
     ],
+    extras_require={'zope': ['zope.browserresource', ]},
     entry_points="""
     # -*- Entry points: -*-
-    """,)
-
+    """,
+)
